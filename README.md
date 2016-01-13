@@ -4,7 +4,7 @@
 
 ## Install
 
-You use install [webpack-config-babel6](https://github.com/egoist/webpack-config-babel6) first.
+You should install [webpack-config-babel6](https://github.com/egoist/webpack-config-babel6) first.
 
 ```bash
 $ npm install --save-dev webpack-config-vue
