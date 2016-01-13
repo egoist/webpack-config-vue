@@ -37,7 +37,8 @@
     "vue-hot-reload-api": "^1.2.2",
     "vue-html-loader": "^1.1.0",
     "vue-loader": "^8.0.2",
-    "vue-style-loader": "^1.0.0"
+    "vue-style-loader": "^1.0.0",
+    "webpack-config-safetify": "^1.0.0"
   },
   "devDependencies": {
     "webpack": "^1.12.11"

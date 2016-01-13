@@ -1,18 +1,5 @@
 const path = require('path')
-
-function safetify(config) {
-  return Object.assign({}, config, {
-    resolve: {
-      extenstions: ['', '.js']
-    },
-    resolveLoader: {
-      modulesDirectories: []
-    },
-    module: {
-			loaders: []
-    }
-  })
-}
+const safetify = require('webpack-config-safetify')
 
 module.exports = function (config) {
   config = safetify(config)
