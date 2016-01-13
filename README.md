@@ -1,4 +1,4 @@
-# webpack-config-vue ![build status](https://img.shields.io/circleci/project/egoist/webpack-config-vue/master.svg)
+# webpack-config-vue [![build status](https://img.shields.io/circleci/project/egoist/webpack-config-vue/master.svg)](https://circleci.com/gh/egoist/webpack-config-vue)
 
 > Reusable Webpack config for Vue.js
 
