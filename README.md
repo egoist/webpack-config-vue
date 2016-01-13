@@ -15,13 +15,20 @@ In your `webpack.config.js`:
 ```js
 const vue = require('webpack-config-vue')
 
-module.exports = vue({
+const config = vue({
   entry: './main.js',
   output: {
     path: __dirname + '/build',
     filename: 'bundle.js'
   }
 })
+
+// apply postcss plugins
+config.vue.postcss = [
+  require('precss')
+]
+
+module.exports = config
 ```
 
 ## License

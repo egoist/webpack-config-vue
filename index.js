@@ -11,5 +11,6 @@ module.exports = function (config) {
     path.join(__dirname, 'node_modules')
   )
   config.resolve.extenstions.push('.vue')
+  config.vue = config.vue || {}
   return config
 }
