@@ -4,6 +4,8 @@
 
 ## Install
 
+You use install [webpack-config-babel](https://github.com/egoist/webpack-config-babel) first.
+
 ```bash
 $ npm install --save-dev webpack-config-vue
 ```
@@ -13,15 +15,19 @@ $ npm install --save-dev webpack-config-vue
 In your `webpack.config.js`:
 
 ```js
+const babel = require('webpack-config-babel')
 const vue = require('webpack-config-vue')
 
-const config = vue({
+let config = {
   entry: './main.js',
   output: {
     path: __dirname + '/build',
     filename: 'bundle.js'
   }
-})
+}
+
+config = babel(config)
+config = vue(config)
 
 // apply postcss plugins
 config.vue.postcss = [
