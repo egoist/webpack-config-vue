@@ -1,5 +1,5 @@
 const path = require('path')
-const safetify = require('../webpack-config-safetify')
+const safetify = require('webpack-config-safetify')
 
 module.exports = function (config) {
   config = safetify(config)

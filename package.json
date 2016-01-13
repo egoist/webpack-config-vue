@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "webpack presets for vue",
   "main": "index.js",
   "scripts": {
