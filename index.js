@@ -10,7 +10,7 @@ module.exports = function (config) {
   config.resolveLoader.modulesDirectories.push(
     path.join(__dirname, 'node_modules')
   )
-  config.resolve.extenstions.push('.vue')
+  config.resolve.extensions.push('.vue')
   config.vue = config.vue || {}
   return config
 }
