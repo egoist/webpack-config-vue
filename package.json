@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-vue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "webpack presets for vue",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,7 @@
     "vue-html-loader": "^1.1.0",
     "vue-loader": "^8.0.2",
     "vue-style-loader": "^1.0.0",
-    "webpack-config-safetify": "^1.0.0"
+    "webpack-config-safetify": "^1.0.1"
   },
   "devDependencies": {
     "webpack": "^1.12.11"
