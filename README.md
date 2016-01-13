@@ -4,7 +4,7 @@
 
 ## Install
 
-You use install [webpack-config-babel](https://github.com/egoist/webpack-config-babel) first.
+You use install [webpack-config-babel6](https://github.com/egoist/webpack-config-babel6) first.
 
 ```bash
 $ npm install --save-dev webpack-config-vue
@@ -15,7 +15,7 @@ $ npm install --save-dev webpack-config-vue
 In your `webpack.config.js`:
 
 ```js
-const babel = require('webpack-config-babel')
+const babel = require('webpack-config-babel6')
 const vue = require('webpack-config-vue')
 
 let config = {
